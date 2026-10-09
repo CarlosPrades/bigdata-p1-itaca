@@ -7,8 +7,6 @@ Construir un dashboard de análisis académico en Power BI a partir de datos rea
 
 ## Arquitectura
 
-*Diagrama del pipeline completo. Empieza con uno provisional en el Bloque 0 y actualízalo al terminar cada bloque.*
-
 ```mermaid
 graph LR
     A[XML ITACA] --> B[Ingesta]
