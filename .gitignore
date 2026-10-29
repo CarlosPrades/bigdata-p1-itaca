@@ -1,1 +1,25 @@
 .env
+.env.*
+!.env.example
+
+# Exportaciones originales y resultados locales: nunca publicar datos académicos.
+data/*
+!data/raw/
+!data/staged/
+!data/curated/
+data/raw/*
+data/staged/*
+data/curated/*
+!data/raw/.gitkeep
+!data/staged/.gitkeep
+!data/curated/.gitkeep
+*.xml
+*.zip
+
+# Entornos, cachés y notebooks.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
